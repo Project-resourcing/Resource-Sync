@@ -7,11 +7,17 @@ $("#submitUser").on({
 })
 
 function sendJSON(){                
-    fetch('https://api.github.com/repos/organization/repo/issues?access_token=a5045e25d3faab24528ba8da493f3467fd96a6aa', {
-        method: 'post',
-        body: {
-          title: 'Title',
-          body: {body: "body", title: "title"}
-        }
-      })  
+    postRequest('https://project-resourcing.github.io/Resource-Sync/Assests/js/Local_Data/users', {user: 'Dan'})
+    .then(data => console.log(data)) // Result from the `response.json()` call
+  
+  function postRequest(url, data) {
+    return fetch(url, {
+      credentials: 'same-origin', // 'include', default: 'omit'
+      method: 'POST',             // 'GET', 'PUT', 'DELETE', etc.
+      body: JSON.stringify(data), // Use correct payload (matching 'Content-Type')
+      headers: { 'Content-Type': 'application/json' },
+    })
+    .then(response => response.json())
+    .catch(error => console.error(error))
+  }
 }
