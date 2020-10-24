@@ -7,13 +7,11 @@ $("#submitUser").on({
 })
 
 function sendJSON(){                
-    fetch('https://project-resourcing.github.io/Resource-Sync/Assests/js/Local_Data/users.json', {
-      method: 'post',
-      body: {
-        name: "Cisco",
-        age: "Unknown",
-        secretIdentity: "Francisco",
-        powers: ["Dominating Code"]
-      }
-    })
+    fetch('https://api.github.com/repos/organization/repo/issues?access_token=a5045e25d3faab24528ba8da493f3467fd96a6aa', {
+        method: 'post',
+        body: {
+          title: 'Title',
+          body: {body: "body", title: "title"}
+        }
+      })  
 }
