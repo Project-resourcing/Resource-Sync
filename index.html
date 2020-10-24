@@ -7,6 +7,9 @@
     <title>Project Resource-Sync</title>
     <link rel="stylesheet" href="Assests/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="Assests/css/site.css" />
+    <script type="module">
+      import { Octokit } from "https://cdn.skypack.dev/@octokit/core";
+    </script>
 </head>
 <body>
     <header>
@@ -33,8 +36,12 @@
     </header>
     <div class="container" style="margin:0; padding:0;">
         <main role="main" class="pb-3">
-         <h1>Welcome </h1> 
-            <img src="Assests/images/Testing_size2.png" alt="Project Resource-Sync Logo"/>
+            <h1>Welcome </h1> 
+            <header id="header">
+            </header>
+            
+            <section id="section">
+            </section>
         </main>
     </div>
 
@@ -45,7 +52,9 @@
     </footer>
     <script src="Assests/lib/jquery/dist/jquery.min.js"></script>
     <script src="Assests/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="Assests/js/site.js" asp-append-version="true"></script>
+    <script src="Assests/js/site.js"></script>
+    <script src="Assests/js/Retrieve_Data/GET_Users.js"></script>
+    <script src="Assests/js/Retrieve_Data/POST_Users.js"></script>
 </body>
 </html>
 
