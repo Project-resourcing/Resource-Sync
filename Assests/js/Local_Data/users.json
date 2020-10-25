@@ -1,0 +1,29 @@
+{
+    "squadName": "Super Hero Squad",
+    "homeTown": "Metro City",
+    "formed": 2016,
+    "secretBase": "Super tower",
+    "active": true,
+    "members": [
+        {
+            "name": "Trymory",
+            "age": 24,
+            "secretIdentity": "Thyraellis Howard",
+            "powers": [
+                "Love blast"
+            ]
+        },
+        {
+            "name": "Sample Info",
+            "age": 1000000,
+            "secretIdentity": "Unknown",
+            "powers": [
+                "Immortality",
+                "Heat Immunity",
+                "Inferno",
+                "Teleportation",
+                "Interdimensional travel"
+            ]
+        }
+    ]
+}
