@@ -150,10 +150,7 @@ font-size: 60px;
   
   
   }
-  .container1{
-    margin-bottom: 180px;
-    
-  }
+
   .h2c {
 
     padding-left: 400px;
@@ -172,4 +169,10 @@ font-size: 60px;
       font-size: 20px;
 
     }
-    
+    .floattext{
+      position: absolute;
+      bottom: 790px;
+      left: 16px;
+      padding-right: 40%;
+      font-size: 20px;
+    }
