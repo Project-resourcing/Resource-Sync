@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="Assests/images/Resource_Sync_favicon.png">
+    <title>Project Resource-Sync</title>
+    <link rel="stylesheet" href="Assests/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="Assests/css/AboutUs.css" />
+    <script type="module">
+      import { Octokit } from "https://cdn.skypack.dev/@octokit/core";
+    </script>
+</head>
+<body>
+    <header  >
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container nopadding nomargin" >
+                <img src="Assests/images/Copy_of_Resource_Sync_Circle_logo.png" alt="Project Resource-Sync Logo" style="height: 50px; padding: 0 10px;" />
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index" style="padding-left: 16px;">Resource Sync</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                      <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="About Us">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container1">
+    <img src="Assests/images/About_Us_Hero_Worded.png" alt="About Us"
+    /> 
+    <p style="margin-top: 20px; padding-left: 80px; padding-right: 80px;font-size: 20px;">Contrary to popular belief, Lorem Ipsum is not simply random text. 
+        It has roots in a piece of classical Latin literature from 45 BC, 
+        making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
+         looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through t
+         he cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 
+         1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. 
+         This book is a treatise on the theory of ethics, very popular during the Renaissance. 
+        The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p> 
+
+    </div>
+        
+        <div class="round">
+            <h2 class="h2a">Ensuring your community can</h2>
+            <h2 class="h2b">SURVIVE AND THRIVE</h2>
+            <img src="Assests/images/Hand_Heart.png" alt="About Us"
+            /> 
+       
+           
+        </div>
+        <div >
+            <h2 class="h2c">WE BELIEVE</h2>
+            <p class="text1"> It has roots in a piece of classical Latin literature from 45 BC, 
+                making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
+                 looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through t
+                 he cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 
+                 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. 
+                 This book is a treatise on the theory of ethics, very popular during the Renaissance. 
+                The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+        </div>
+    
+
+
+
+
+
+
+
+
+
+        <div>
+        <img src="Assests/images/SignupbuttonA.png" alt="sign up" style="height: 20%; width: 20%; display: block;
+        margin-left: auto;
+        margin-right: auto;
+       " /> 
+        </div> 
+        
+    <footer class="border-top footer text-muted">
+        <div class="container3">
+            &copy; 2020 - Project Resource-Sync - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="Assests/lib/jquery/dist/jquery.min.js"></script>
+    <script src="Assests/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="Assests/js/site.js"></script>
+    <script src="Assests/js/Retrieve_Data/GET_Users.js"></script>
+    <script src="Assests/js/Retrieve_Data/POST_Users.js"></script>
+</body>
+</html>
+

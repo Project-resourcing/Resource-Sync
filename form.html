@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="Assests/images/Resource_Sync_favicon.png">
+    <title>Project Resource-Sync</title>
+    <link rel="stylesheet" href="Assests/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="Assests/css/form.css" />
+    <script type="module">
+      import { Octokit } from "https://cdn.skypack.dev/@octokit/core";
+    </script>
+</head>
+<body>
+    <header  >
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container nopadding nomargin" >
+                <img src="Assests/images/Copy_of_Resource_Sync_Circle_logo.png" alt="Project Resource-Sync Logo" style="height: 50px; padding: 0 10px;" />
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index" style="padding-left: 16px;">Resource Sync</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                      <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="About Us">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <img src="Assests/images/Almost_there.png" alt="Almost there picture" style="padding-left: 30%;"/> 
+    <h1 style="text-align: center;">Please complete your registration</h1>
+
+
+
+    <fieldset>
+    <form>
+        <div class="form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">Volunter</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">In need</label>
+          </div>
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
+            <label for="validationServer01">First name</label>
+            <input type="text" class="form-control is-valid" id="validationServer01" value="" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="validationServer02">Last name</label>
+            <input type="text" class="form-control is-valid" id="validationServer02" value="" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
+            <label for="validationServer03">City</label>
+            <input type="text" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
+            <div id="validationServer03Feedback" class="invalid-feedback">
+              Please provide a valid city.
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="validationServer04">State</label>
+            <select class="custom-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
+              <option selected disabled value="">Choose...</option>
+              <option>...</option>
+            </select>
+            <div id="validationServer04Feedback" class="invalid-feedback">
+              Please select a valid state.
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="validationServer05">Zip</label>
+            <input type="text" class="form-control is-invalid" id="validationServer05" aria-describedby="validationServer05Feedback" required>
+            <div id="validationServer05Feedback" class="invalid-feedback">
+              Please provide a valid zip.
+            </div>
+          </div>
+     
+            
+          </div>
+        </div>
+        
+        <div class="form-row">
+            <div class="col-md-6 mb-3">
+              <label for="validationServer01">Email Address</label>
+              <input type="email" class="form-control is-valid" id="validationServer01" value="" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="validationServer02">Phone Number</label>
+              <input type="tel" class="form-control is-valid" id="validationServer02" value="" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+        </div>
+        <label for="items">Skill:</label>
+
+<select id="things">
+  <option value="thing-1">Skill 1</option>
+  <option value="thing-2">Skill 2</option>
+  <option value="thing-3">Skill 3</option>
+  <option value="thing-4">Skill 4</option>
+</select>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+            <label class="form-check-label" for="invalidCheck3">
+              Agree to terms and conditions
+            </label>
+            <div  id="invalidCheck3Feedback" class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+        <button class="btn-primary" type="submit">Submit form</button>
+      </form>
+
+      <div>
+    
+       
+   
+    <footer class="border-top footer text-muted">
+        <div class="container3">
+            &copy; 2020 - Project Resource-Sync - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+
+    </fieldset> 
+    </footer>
+    <script src="Assests/lib/jquery/dist/jquery.min.js"></script>
+    <script src="Assests/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="Assests/js/site.js"></script>
+    <script src="Assests/js/Retrieve_Data/GET_Users.js"></script>
+    <script src="Assests/js/Retrieve_Data/POST_Users.js"></script>
+</body>
+</html>
+

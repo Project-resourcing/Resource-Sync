@@ -1,0 +1,175 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+/*header
+{
+margin: 0px;
+margin-left: 0px;
+margin-bottom: 0px;
+padding-right: 20px;
+padding: 0px;
+
+}
+*/
+a.navbar-brand {
+ 
+  white-space: normal;
+  text-align: left;
+  word-break: break-all;
+ 
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+.search-bar{
+  width: 50%;
+  position: relative;
+
+
+}
+.search-bar input [type = "text"]{
+  width: 100%;
+  padding: 20px;
+  padding-right: 60px;
+  box-sizing: border-box;
+  background: rgba(0,0,0,3);
+  border: 2px solid#ffff;
+  border-radius: 18px;
+  color: #ffff;
+
+}
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+ /*.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;} 
+   Vertically center the text there */
+
+
+
+
+
+.nopadding{
+  padding: 0;
+
+} 
+.nomargin{
+  margin: 0;
+}
+.search-bar{
+  background-size: cover;
+}
+
+.container3{
+  height: 150px;
+ background-color:  rgb(186,202,210);
+ 
+}
+.round{
+padding-top: 200px;
+background-color: rgb(36,199,207);
+width: 1500px;
+height: 1500px;
+border-radius: 50%;
+}
+
+
+.round img{
+
+  width: 127%;
+
+ 
+
+
+}
+.h2a {
+
+padding-left: 300px;
+font-size: 60px;
+
+
+}
+.h2b {
+
+  padding-left: 300px;
+  font-size: 120px;
+  
+  
+  }
+  .container1{
+    margin-bottom: 180px;
+    
+  }
+  .h2c {
+
+    padding-left: 400px;
+    font-size: 120px;
+    
+   
+
+
+
+    }
+    .text1{
+
+      margin-top: 20px;
+      padding-left: 100px;
+      padding-right: 250px;
+      font-size: 20px;
+
+    }
+    
