@@ -7,22 +7,22 @@
 			"cards": {
 				"card1": {
 					"title": "Connect",
-					"paragraph": "1 - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+					"paragraph": "1 - Link up with friends and neighbors around town, or connect with your social media pages to show the world you care about community.
 				},
 				"card2": {
 					"title": "Local",
-					"paragraph": "2 - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+					"paragraph": "2 - We keep things local, from small businesses to the little old lady down the street. Show your pride in your town, your way.
 				},
 				"card3": {
 					"title": "Reach Out",
-					"paragraph": "3 - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+					"paragraph": "3 -  Need help? Simply create a solicitor account and let the town know what you need! We make it easy to find the right resources in your own backyard.
 				}
 			}
 		},
 		{
 			"call-to-action": {
 				"title": "Contact with your community now",
-				"paragraph": "Call - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+				"paragraph": "Call - We understand the need for community involvement in this day and age, we also understand that it can be difficult to find someone to help, or somewhere that needs help. That’s where we come in, connecting member's of the community with those in need. From dog-walking to paving and everything in between. Resource-Sync makes it as easy to give back or get the resources you need.
 			}
 		}
 	],
