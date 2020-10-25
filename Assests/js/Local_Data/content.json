@@ -1,28 +1,28 @@
-{
-    "squadName": "Super Hero Squad",
-    "homeTown": "Metro City",
-    "formed": 2016,
-    "secretBase": "Super tower",
-    "active": true,
-    "members": [
+{  
+    "landing_page": [
         {
-            "name": "Trymory",
-            "age": 24,
-            "secretIdentity": "Thyraellis Howard",
-            "powers": [
-                "Love blast"
-            ]
+            "intro-bar" : "Be the difference in your comunity with Resource Sync"
         },
         {
-            "name": "Sample Info",
-            "age": 1000000,
-            "secretIdentity": "Unknown",
-            "powers": [
-                "Immortality",
-                "Heat Immunity",
-                "Inferno",
-                "Teleportation",
-                "Interdimensional travel"
+            "cards" : [
+                "card1" : [
+                    "title" : "Connect",
+                    "paragraph" : "1 - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+                ]
+                "card2" :  [
+                    "title" : "Local",
+                    "paragraph" : "2 - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+                ],
+                "card3" :  [
+                    "title" : "Reach Out",
+                    "paragraph" : "3 - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+                ]
+            ]   
+        },
+        {
+            "call-to-action" : [
+                "title" : "Contact with your community now",
+                "paragraph" : "Call - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
             ]
         }
     ]
